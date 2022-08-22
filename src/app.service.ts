@@ -13,4 +13,18 @@ export class AppService {
       appPort: this.appConfig.port,
     };
   }
+
+  getHi():string{
+    return `Hola mi nombre es Gohan y esta es mi PetShop`
+  }
+
+  /* async getAllUsers(): Promise<User[]>{
+    return await this.userRepo.find()
+  }
+
+  async getUser(userId): Promise<User>{
+    return await this.userRepo.findOne(userId)
+  } */
 }
+
+
